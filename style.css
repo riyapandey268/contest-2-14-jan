@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background-color: black;
+}
+
+.sidebar{
+    height: 95vh;
+    width: 15vw;
+    background-color:#262626;
+    flex: 0.2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    margin-left: 8px;
+    position: fixed;
+    
+}
+.sidebar img{
+    
+    border-radius: 200px;
+    width: 100px;
+}
+.btn button{
+    height: 30px;
+    width: 150px;
+    margin: 6px 5px 2px 5px;
+    border-radius: 30px;
+    background-color: black;
+    color:rgba(255, 255, 255, 0.5);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 27px;
+}
+.rich p{
+    margin-left: 18px;
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    margin-top: 5px;
+}
+.name h3{
+    color: white;
+}
+.maincontainer{
+    display: flex;
+    padding-top: 10px;  
+} 
+.image2 img{
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top:35px;
+}
+.parentdescription{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid black;
+    height: 60vh;
+    background-color:#262626;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 195px ;
+    border-radius: 15px;
+    margin-right: 8px;
+}
+.para p{
+    margin-top: 15px;
+    width: 80%;
+    color: rgba(255, 255, 255, 0.5);
+}
+.content{
+    padding-left: 20px;
+}
+.link {
+    margin-top: 20px;
+}
+.heading{
+    color:white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.link a{
+    color: rgba(255, 255, 255, 0.5);
+}
+table{
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    text-align: left;
+}
+tbody{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+td,th{
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+   padding: 5px;
+}
+.tablesection{
+    padding: 10px 20px 20px 33px;
+    border: 1px solid black;
+    background-color:#262626;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 195px ;
+    border-radius: 15px;
+    margin-right: 8px;
+    margin-top: 10px;
+    height: 33vh;
+    color: rgba(255, 255, 255, 0.5);
+}
+.heading3 h3{
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.tablesec{
+    margin-top: 15px;
+}
+
+
